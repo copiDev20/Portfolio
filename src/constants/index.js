@@ -131,6 +131,22 @@ const technologies = [
 
 const experiences = [
   {
+    title: "CTO & Project Manager",
+    company_name: "Growth Fusion",
+    icon: reddiamond,
+    iconBg: "#E6DEDD",
+    date: "Jan 2025 - Present",
+    points: [
+      "Defining and prioritizing product features for Reddiamond Backstage, a digital distribution and management platform, as a Product Owner.",
+      "Collaborating with teams to align on product vision and goals.",
+      "Developing and managing file transfer solutions and DDEX metadata systems.",
+      "Implementing SmartLinks for marketing to boost engagement.",
+      "Utilizing Amazon S3 for scalable content delivery.",
+      "Monitoring platforms and analyzing data for performance improvements.",
+      "Overseeing automation with Cron jobs for efficiency."
+    ],
+  },
+  {
     title: "Full-Stack Developer",
     company_name: "Reddiamond",
     icon: reddiamond,
@@ -272,6 +288,49 @@ const projects = [
     ],
     image: bookme,
     source_code_link: "https://www.bookme.fans/",
+  },
+  {
+    name: "The eagle",
+    description:
+      "Red Diamond a Tunisian music label established as an independent digital distribution and management label in 2019, Red Diamond had the opportunity to be the first Hip-hop Rap Label in Tunisia, and we are publishing quality music from across the Arab Maghreb and to provide upcoming talents with the opportunity to showcase their musical creations.",
+    tags: [
+      {
+        name: "Laravel",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      
+    ],
+    image: redd,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "MediaMate",
+    description: "Red Diamond a Tunisian music label established as an independent digital distribution and management label in 2019, Red Diamond had the opportunity to be the first Hip-hop Rap Label in Tunisia, and we are publishing quality music from across the Arab Maghreb and to provide upcoming talents with the opportunity to showcase their musical creations.",
+    tags: [
+      {
+        name: "Laravel",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      
+    ],
+    image: redd,
+    source_code_link: "https://github.com/",
   },
 ];
 
