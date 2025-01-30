@@ -42,6 +42,10 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import mediamate from "./mediamate.png"
+import theeagle from "./theeagle.png"
+import recycler from "./recycler.png"
+
 export {
   logo,
   backend,
@@ -82,5 +86,8 @@ export {
   bookme,
   redd,
   logoAmine,
-  holisticlly
+  holisticlly,
+  mediamate,
+  theeagle,
+  recycler
 };

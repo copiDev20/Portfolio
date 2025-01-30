@@ -34,6 +34,9 @@ import {
   bookme,
   redd,
   holisticlly,
+  mediamate,
+  theeagle,
+  recycler
 } from "../assets";
 
 export const navLinks = [
@@ -222,13 +225,21 @@ const testimonials = [
     company: "Synexta",
     image: "https://randomuser.me/api/portraits/men/3.jpg",
   },
+  {
+    testimonial:
+      "Working with Amine was a great pleasure, he know how to satisfy clients and advice them on the best practises",
+    name: "Firas Glai",
+    designation: "CTO",
+    company: "Growth Fusion",
+    image: "https://randomuser.me/api/portraits/men/3.jpg",
+  },
 ];
 
 const projects = [
   {
-    name: "Reddiamond",
+    name: "MediaMate",
     description:
-      "Red Diamond a Tunisian music label established as an independent digital distribution and management label in 2019, Red Diamond had the opportunity to be the first Hip-hop Rap Label in Tunisia, and we are publishing quality music from across the Arab Maghreb and to provide upcoming talents with the opportunity to showcase their musical creations.",
+      "Mediamate is content production solution. Like converting media, generating thumbnails or creating watermarks. It contains AI-powered platform handles the complexity",
     tags: [
       {
         name: "Laravel",
@@ -244,7 +255,7 @@ const projects = [
       },
       
     ],
-    image: redd,
+    image: mediamate,
     source_code_link: "https://github.com/",
   },
   {
@@ -292,44 +303,40 @@ const projects = [
   {
     name: "The eagle",
     description:
-      "Red Diamond a Tunisian music label established as an independent digital distribution and management label in 2019, Red Diamond had the opportunity to be the first Hip-hop Rap Label in Tunisia, and we are publishing quality music from across the Arab Maghreb and to provide upcoming talents with the opportunity to showcase their musical creations.",
+      "The eagle is a leading brand in creating extraordinary stories through cutting-edge drone cinematography and professional aerial photography.",
     tags: [
       {
-        name: "Laravel",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Shadcn",
         color: "green-text-gradient",
       },
       
     ],
-    image: redd,
+    image: theeagle,
     source_code_link: "https://github.com/",
   },
   {
-    name: "MediaMate",
-    description: "Red Diamond a Tunisian music label established as an independent digital distribution and management label in 2019, Red Diamond had the opportunity to be the first Hip-hop Rap Label in Tunisia, and we are publishing quality music from across the Arab Maghreb and to provide upcoming talents with the opportunity to showcase their musical creations.",
+    name: "Recycler",
+    description: "Recycler is a local solution to help recycler get connected with communities to help reduce waste materials.",
     tags: [
       {
-        name: "Laravel",
+        name: "Supabase",
         color: "pink-text-gradient",
       },
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Typescript",
         color: "green-text-gradient",
       },
       
     ],
-    image: redd,
+    image: recycler,
     source_code_link: "https://github.com/",
   },
 ];
