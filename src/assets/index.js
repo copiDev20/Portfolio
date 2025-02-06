@@ -46,6 +46,10 @@ import mediamate from "./mediamate.png"
 import theeagle from "./theeagle.png"
 import recycler from "./recycler.png"
 
+import aws from "./aws.svg"
+
+import me from "./me.jpeg"
+
 export {
   logo,
   backend,
@@ -89,5 +93,7 @@ export {
   holisticlly,
   mediamate,
   theeagle,
-  recycler
+  recycler,
+  me,
+  aws
 };

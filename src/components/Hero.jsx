@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
+import { me } from '../assets'
 
 const Hero = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -104,7 +105,7 @@ const Hero = () => {
               transition={{ duration: 0.3 }}
             >
               <img
-                src="/api/placeholder/500/500"
+                src={me}
                 alt="Amine's Profile"
                 className="w-full h-full object-cover"
               />

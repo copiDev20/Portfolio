@@ -36,7 +36,8 @@ import {
   holisticlly,
   mediamate,
   theeagle,
-  recycler
+  recycler,
+  aws
 } from "../assets";
 
 export const navLinks = [
@@ -129,6 +130,10 @@ const technologies = [
   {
     name: "docker",
     icon: docker,
+  },
+  {
+    name: "Amazon",
+    icon: aws,
   },
 ];
 
