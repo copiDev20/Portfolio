@@ -14,13 +14,16 @@ const ExperienceCard = ({ experience }) => (
       <div className="absolute top-0 left-0 w-full h-32 bg-gradient-to-br from-purple-500/20 to-pink-500/20" />
       
       <div className="relative z-10">
-        <div className="w-20 h-20 rounded-2xl overflow-hidden border-2 border-purple-500/30 mb-6">
-          <img
-            src={experience.icon}
-            alt={experience.company_name}
-            className="w-full h-full object-cover"
-          />
-        </div>
+      <div className="w-16 h-16 rounded-2xl overflow-hidden border-2 border-purple-500/30 bg-white mb-6 flex items-center justify-center">
+        <img
+          src={experience.icon}
+          alt={experience.company_name}
+          className="object-contain w-full h-full"
+        />
+      </div>
+
+
+
 
         <span className="px-4 py-1.5 rounded-full text-sm font-medium bg-white/10 text-purple-300 mb-4 inline-block">
           {experience.date}
