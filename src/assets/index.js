@@ -50,6 +50,9 @@ import aws from "./aws.svg"
 
 import me from "./me.jpeg"
 
+import grafana from "./grafana.svg"
+import kubernates from "./kubernates.svg"
+
 export {
   logo,
   backend,
@@ -95,5 +98,7 @@ export {
   theeagle,
   recycler,
   me,
-  aws
+  aws,
+  grafana,
+  kubernates
 };

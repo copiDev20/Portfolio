@@ -37,7 +37,9 @@ import {
   mediamate,
   theeagle,
   recycler,
-  aws
+  aws,
+  grafana,
+  kubernates,
 } from "../assets";
 
 export const navLinks = [
@@ -57,19 +59,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full-Stack Developer",
     icon: web,
   },
   {
-    title: "Mobile Developer",
+    title: "Devops Enthousiast",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Cloud Architect",
     icon: backend,
   },
   {
-    title: "Modelisation 3D",
+    title: "3D Modeling Specialist",
     icon: creator,
   },
 ];
@@ -100,7 +102,7 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
+    name: "MySql",
     icon: mysql,
   },
   {
@@ -116,16 +118,16 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "kubernates",
+    icon: kubernates,
   },
   {
     name: "git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "grafana",
+    icon: grafana,
   },
   {
     name: "docker",
@@ -138,22 +140,22 @@ const technologies = [
 ];
 
 const experiences = [
-  {
-    title: "CTO & Project Manager",
-    company_name: "Growth Fusion",
-    icon: reddiamond,
-    iconBg: "#E6DEDD",
-    date: "Jan 2025 - Present",
-    points: [
-      "Defining and prioritizing product features for Reddiamond Backstage, a digital distribution and management platform, as a Product Owner.",
-      "Collaborating with teams to align on product vision and goals.",
-      "Developing and managing file transfer solutions and DDEX metadata systems.",
-      "Implementing SmartLinks for marketing to boost engagement.",
-      "Utilizing Amazon S3 for scalable content delivery.",
-      "Monitoring platforms and analyzing data for performance improvements.",
-      "Overseeing automation with Cron jobs for efficiency."
-    ],
-  },
+  //{
+    //title: "CTO & Project Manager",
+   // company_name: "Growth Fusion",
+   // icon: reddiamond,
+   // iconBg: "#E6DEDD",
+  //  date: "Jan 2025 - Present",
+  //  points: [
+  //    "Defining and prioritizing product features for Reddiamond Backstage, a digital distribution and management platform, as a Product Owner.",
+   //   "Collaborating with teams to align on product vision and goals.",
+   //   "Developing and managing file transfer solutions and DDEX metadata systems.",
+   //   "Implementing SmartLinks for marketing to boost engagement.",
+    //  "Utilizing Amazon S3 for scalable content delivery.",
+     // "Monitoring platforms and analyzing data for performance improvements.",
+    //  "Overseeing automation with Cron jobs for efficiency."
+   // ],
+  //},
   {
     title: "Full-Stack Developer",
     company_name: "Reddiamond",

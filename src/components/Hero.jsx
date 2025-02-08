@@ -125,7 +125,7 @@ const Hero = () => {
           repeatType: "reverse"
         }}
       >
-        <a 
+        {/* <a 
           href="#about"
           className="flex flex-col items-center text-white/50 hover:text-white/80 transition-colors"
         >
@@ -143,7 +143,7 @@ const Hero = () => {
               }}
             />
           </div>
-        </a>
+        </a> */}
       </motion.div>
     </section>
   );

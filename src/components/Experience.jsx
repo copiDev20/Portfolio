@@ -104,14 +104,14 @@ const Experience = () => {
 
           <button
             onClick={() => scroll('left')}
-            className="absolute left-8 top-1/2 -translate-y-1/2 p-3 rounded-full bg-white/10 backdrop-blur-md border border-white/20 hover:bg-white/20 transition-colors duration-300"
+            className="absolute left-3 top-1/2 -translate-y-1/2 p-3 rounded-full bg-white/10 backdrop-blur-md border border-white/20 hover:bg-white/20 transition-colors duration-300"
           >
             <ChevronLeft className="w-6 h-6 text-white" />
           </button>
           
           <button
             onClick={() => scroll('right')}
-            className="absolute right-8 top-1/2 -translate-y-1/2 p-3 rounded-full bg-white/10 backdrop-blur-md border border-white/20 hover:bg-white/20 transition-colors duration-300"
+            className="absolute right-0 top-1/2 -translate-y-1/2 p-3 rounded-full bg-white/10 backdrop-blur-md border border-white/20 hover:bg-white/20 transition-colors duration-300"
           >
             <ChevronRight className="w-6 h-6 text-white" />
           </button>

@@ -8,7 +8,7 @@ const ServiceCard = ({ index, title, icon }) => {
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, delay: index * 0.2 }}
-      className="w-full sm:w-[245px]"
+      className="w-full sm:w-[270px]"
     >
       <motion.div
         whileHover={{ y: -8 }}
@@ -96,28 +96,40 @@ const About = () => {
           />
         </motion.div>
 
-        {/* Description */}
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
           className="text-lg text-gray-300 max-w-3xl mx-auto text-center leading-relaxed mb-20"
         >
-          As a proficient software developer, I bring a wealth of experience in PHP, TypeScript and JavaScript,
-          complemented by a deep understanding of frameworks such as React, Node.js, Vue.js, Laravel, and Symfony.
-          My expertise extends to crafting efficient, scalable, and user-centric solutions that address complex
-          challenges. With a commitment to excellence and a collaborative approach, I am dedicated to transforming
-          your visions into reality. Let's collaborate to achieve exceptional results.
+          I’m a skilled software developer with expertise in 
+          <strong style={{ color: '#915EFF' }}> PHP, TypeScript, and JavaScript</strong>, specializing in frameworks like 
+          <strong style={{ color: '#915EFF' }}> React, Node.js, Vue.js, Laravel, and Symfony</strong>.  
+
+          I build <strong style={{ color: '#915EFF' }}> scalable, efficient solutions</strong> and integrate cloud services like 
+          <strong style={{ color: '#915EFF' }}> AWS S3 and Lambda</strong> for seamless serverless applications.  
+          With hands-on experience in <strong style={{ color: '#915EFF' }}>CI/CD pipelines</strong>, I implement best practices like 
+          <strong style={{ color: '#915EFF' }}> Dockerizing applications</strong>, automating builds with 
+          <strong style={{ color: '#915EFF' }}> Jenkins and GitHub Actions</strong>, and orchestrating deployments using 
+          <strong style={{ color: '#915EFF' }}> Kubernetes</strong>. I also leverage 
+          <strong style={{ color: '#915EFF' }}> Terraform</strong> for infrastructure as code and 
+          <strong style={{ color: '#915EFF' }}> Prometheus and Grafana</strong> for monitoring, ensuring 
+          <strong style={{ color: '#915EFF' }}> fast, reliable, and scalable deployments</strong>.  
+
+          <br /><br />
+          <strong style={{ color: '#915EFF' }}> Let’s collaborate to bring your vision to life.</strong>  
         </motion.p>
 
+
         {/* Services grid */}
-        <div className="flex flex-wrap justify-center gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 max-w-7xl mx-auto px-4">
           {services.map((service, index) => (
-            <ServiceCard 
-              key={service.title} 
-              index={index} 
-              {...service} 
-            />
+            <div key={service.title} className="h-full"> {/* Ensure cards take full height */}
+              <ServiceCard 
+                index={index} 
+                {...service} 
+              />
+            </div>
           ))}
         </div>
       </div>
